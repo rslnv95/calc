@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-outer-spin-button,
+::-webkit-inner-spin-button {
+  display: none;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.calc input {
+  height: 30px;
+}
+.calc__container {
+  display: flex;
+  padding-top: 100px;
+}
+.calc__box {
+  text-align: center;
+  width: 50%;
+}
+.calc__input {
+  padding: 20px 0;
+}
+.calc__input #symbol {
+  display: inline-block;
+  width: 10px;
+  text-align: center;
+}
+.calc__btns {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.calc__btns button {
+  width: 90px;
+  margin: 0 10px;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+.calc__minmax {
+  padding: 20px 0;
+}
+.calc__minmax button {
+  width: 60px;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+.calc__history {
+  width: 50%;
+}
+.calc__history_box {
+  border: 1px solid gainsboro;
+  height: 200px;
+  overflow: scroll;
+}
+.calc__clear {
+  width: 90px;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

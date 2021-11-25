@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="calc">
+    <div class="container calc__container">
+        <div class="calc__box">
+            <div class="calc__input">
+                <input id="input-first" type="number">
+                <span id="symbol"></span>
+                <input id="input-second" type="number">
+                <span>=</span>
+                <input id="input-result" type="number" readonly>
+            </div>
+            <div class="calc__btns">
+                <button disabled type="button" id="plus" class="calc__math-op">+</button>
+                <button disabled type="button" id="minus" class="calc__math-op">-</button>
+                <button disabled type="button" id="division" class="calc__math-op">/</button>
+                <button disabled type="button" id="multiply" class="calc__math-op">*</button>
+                <button disabled type="button" id="degree" class="calc__math-op">Степень</button>
+                <button disabled type="button" id="radical" class="calc__math-op">Корень</button>
+            </div>
+            <div class="calc__minmax">
+                <input id="checkMinMax" type="text">
+                <span>=</span>
+                <input id="resultMinMax" type="text" readonly>
+                <button class="btnMin">Min</button>
+                <button class="btnMax">Max</button>
+            </div>
+        </div>
+        <div class="calc__history">
+            <ul class="calc__history_box">
+
+            </ul>
+            <button id="calc__clear" class="calc__clear">clear</button>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
